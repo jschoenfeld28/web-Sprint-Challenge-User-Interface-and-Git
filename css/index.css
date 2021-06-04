@@ -144,3 +144,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*General Styles*/
+*{
+    box-sizing:border-box;
+    border:1px solid grey;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    color: #4f4f4f;
+    line-height:1.5;
+}
+h1{
+    font-size:5rem;
+}
+h2{
+    font-size:3.5rem;
+}
+section{
+    padding:4%,0;
+}
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+    
+}
+header nav{
+    width:100%;
+    top:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+#teal{
+    background-color:teal;
+}
+#gold{
+    background-color:gold;
+}
+#cadetblue{
+    background-color:cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color:forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color:hotpink;
+}
+#indigo{
+    background-color:indigo;
+}
+#dodgerblue{
+    background-color:dodgerblue;
+}
+.about-page img{
+    display: flex;
+    
+}
